@@ -13,3 +13,7 @@
 # Run tests
 @test:
   cargo test
+
+# Run clippy
+@lint:
+  cargo clippy
